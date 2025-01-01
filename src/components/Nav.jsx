@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { FaTimes } from "react-icons/fa";
-import { FaBars } from "react-icons/fa";
+import { FaTimes, FaBars } from 'react-icons/fa';
 const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
