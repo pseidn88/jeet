@@ -7,7 +7,7 @@ const Nav = () => {
 
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
   return (
-    <nav className='absolute top-0 left-0 w-full px-36 py-5 text-white z-20 bg-primary'>
+    <nav className='absolute top-0 left-0 w-full px-36 py-5 text-white z-20 bg-primary text-[1.5rem]'>
         <div className="container flex justify-between gap-[15rem]">
             <div className="flex justify-between items-center">
                 {/* logo section */}

@@ -45,7 +45,7 @@ const Hero = () => {
     return () => clearInterval(intervalId);
   }, []);
   return (
-    <main style = {bgImage} className="w-screen h-full text-[1.2rem]">
+    <main style = {bgImage} className="w-screen h-full text-[1.6rem]">
        <Nav/>
        <section className="pt-[14rem] pb-[5rem] px-[5rem] mt-30 grid grid-cols-1 md:grid-cols-3 place-items-center gap-8">
   {/* first article */}
